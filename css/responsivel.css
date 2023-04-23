@@ -1,0 +1,124 @@
+@media only screen and (max-width:980px){
+    
+    nav{
+        position: relative;
+    }
+
+    nav .menu{
+         display: none;
+    }
+    nav .logo{
+        text-align: center;
+        margin: 0;
+        margin-top: 10px;
+    }
+    
+    nav .logo > #name-title{
+        display: block;
+    }
+
+    nav .logo img{
+        width: 30px;
+        height: 30px;
+    }
+
+    header .left{
+        flex: 100%;
+        margin: 0;
+        text-align: center;
+        
+    }
+    header .left > h2{
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    header .left > button{
+        margin: 20px 0;
+    }
+
+    header .left > button:hover{
+        background-color: #A18262;
+        opacity: 0.8;
+    }
+    header .right{
+        flex: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    section{
+        width: auto;
+        height: auto;
+    }
+
+    section .menu-text{
+        flex: 100%;
+    }
+
+    section .menu-text > p{
+        width: 60%;
+        margin: 0 auto;
+        margin-top: -30px;
+        font-size: 23px;
+    }
+
+    section .card{
+        flex: 100%;
+    }
+
+    section .card > img{
+        width: 80%;
+        height: 190px;
+    }
+
+    section .card>.name-cappuccino::after {
+        position: absolute;
+        content: 'Cappuccino';
+        top: 30%;
+        left: 15%;
+        bottom: 0%;
+    }
+    
+    
+    section .card>.name-latte::after {
+        position: absolute;
+        content: 'Latte';
+        top: 30%;
+        left: 15%;
+        bottom: 0%;
+    }
+    
+    section .card>.name-cream::after {
+        position: absolute;
+        content: 'Cream';
+        top: 30%;
+        left: 15%;
+        bottom: 0%;
+    }
+    
+    
+    section .card > .price-cappuccino::after{
+        position: absolute;
+        content: 'R$ 8,50';
+        top: 40%;
+        left: 15%;
+        bottom: 0%;
+    }
+    
+    section .card > .price-latte::after{
+        position: absolute;
+        content: 'R$ 9,00';
+        top: 40%;
+        left: 15%;
+        bottom: 0%;
+    }
+
+    section .card > .price-cream::after{
+        position: absolute;
+        content: 'R$ 14,60';
+        top: 40%;
+        left: 15%;
+        bottom: 0%;
+    }
+}

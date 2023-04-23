@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Istok+Web:wght@400;700&family=Italiana&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Italiana', sans-serif;
+    height: auto;
+}
+
+nav {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row nowrap;
+    height: 100px;
+    margin: 0 4%;
+}
+
+
+.logo {
+    flex: 30%;
+}
+
+.logo img {
+    position: relative;
+    display: inline-block;
+    width: 70px;
+    top: 20px;
+}
+
+.logo #name-title {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.color-coffee {
+    color: #A18262;
+}
+
+.menu {
+    flex: 60%;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 0 22px;
+    font-family: 'Istok Web', sans-serif;
+    color: #A18262;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.menu a:hover {
+    color: #FF8302;
+    border-bottom: 4px solid #FF8302;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding-top: 10px;
+    height: auto;
+}
+
+header .left {
+    flex: 40%;
+    margin-top: -50px;
+    margin-left: 10%;
+
+}
+
+.left>h2 {
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 73px;
+    font-style: normal;
+}
+
+.left>button {
+    cursor: pointer;
+    width: 250px;
+    height: 60px;
+    background-color: #A18262;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Acme', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.left>button:hover {
+    background-color: #FF8302;
+    transition: 1s;
+}
+
+header .right {
+    flex: 40%;
+    margin-right: 10%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    background: linear-gradient(115.88deg, #000000 15.56%, #E3D9D0 89.84%);
+    margin-top: 0px;
+    height: auto;
+}
+
+section .menu-text {
+    color: white;
+    flex: 100%;
+    text-align: center;
+}
+
+section .menu-text>h3 {
+    font-size: 40px;
+    line-height: 47px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section .menu-text>p {
+    position: relative;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: -30px;
+}
+
+section .menu-text>.mobile-text {
+    display: none;
+}
+
+section .card {
+    position: relative;
+    width: 25%;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+}
+
+section .card>img {
+    width: 80%;
+    height: 390px;
+    border-radius: 12px;
+}
+
+section .card>.name {
+    display: none;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Acme', sans-serif;
+    font-weight: bolder;
+    text-align: left;
+    margin: 0;
+    margin-left: 50px;
+}
+
+section .card>.name-cappuccino::after {
+    position: absolute;
+    content: 'Cappuccino';
+    top: 40%;
+    bottom: 0%;
+}
+
+
+section .card>.name-latte::after {
+    position: absolute;
+    content: 'Latte';
+    top: 40%;
+    bottom: 0%;
+}
+
+section .card>.name-cream::after {
+    position: absolute;
+    content: 'Cream';
+    top: 40%;
+    bottom: 0%;
+}
+
+section .card >.price{
+    display: none;
+    color:#FF8302;
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 32px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+section .card > .price-cappuccino::after{
+    position: absolute;
+    content: 'R$ 8,50';
+    top: 45%;
+    bottom: 0%;
+}
+
+section .card > .price-latte::after{
+    position: absolute;
+    content: 'R$ 9,00';
+    top: 45%;
+    bottom: 0%;
+}
+section .card > .price-cream::after{
+    position: absolute;
+    content: 'R$ 14,60';
+    top: 45%;
+    bottom: 0%;
+}
+
+.card > img:hover{
+    filter: blur(4px);
+}
+
+.card:hover .name{
+    display: block;
+}
+
+.card:hover .price{
+    display: block;
+}
