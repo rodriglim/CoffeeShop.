@@ -1,73 +1,76 @@
-@media only screen and (max-width:980px){
-    
-    nav{
+@media only screen and (max-width:980px) {
+
+    nav {
         position: relative;
     }
 
-    nav .menu{
-         display: none;
+    nav .menu {
+        display: none;
     }
-    nav .logo{
+
+    nav .logo {
         text-align: center;
         margin: 0;
         margin-top: 10px;
     }
-    
-    nav .logo > #name-title{
+
+    nav .logo>#name-title {
         display: block;
     }
 
-    nav .logo img{
+    nav .logo img {
         width: 30px;
         height: 30px;
     }
 
-    header .left{
+    header .left {
         flex: 100%;
         margin: 0;
         text-align: center;
-        
+
     }
-    header .left > h2{
+
+    header .left>h2 {
         font-size: 32px;
         line-height: 38px;
     }
 
-    header .left > button{
+    header .left>button {
         margin: 20px 0;
     }
 
-    header .left > button:hover{
+    header .left>button:hover {
         background-color: #A18262;
         opacity: 0.8;
     }
-    header .right{
+
+    header .right {
         flex: 100%;
         margin: 0;
         text-align: center;
     }
 
-    section{
+    section {
         width: auto;
         height: auto;
     }
 
-    section .menu-text{
+    section .menu-text {
         flex: 100%;
     }
 
-    section .menu-text > p{
+    section .menu-text>p {
         width: 60%;
         margin: 0 auto;
         margin-top: -30px;
         font-size: 23px;
     }
 
-    section .card{
+    section .card {
         flex: 100%;
     }
 
-    section .card > img{
+    section .card>img {
         width: 80%;
         height: 190px;
     }
@@ -79,8 +82,8 @@
         left: 15%;
         bottom: 0%;
     }
-    
-    
+
+
     section .card>.name-latte::after {
         position: absolute;
         content: 'Latte';
@@ -88,7 +91,7 @@
         left: 15%;
         bottom: 0%;
     }
-    
+
     section .card>.name-cream::after {
         position: absolute;
         content: 'Cream';
@@ -96,17 +99,17 @@
         left: 15%;
         bottom: 0%;
     }
-    
-    
-    section .card > .price-cappuccino::after{
+
+
+    section .card>.price-cappuccino::after {
         position: absolute;
         content: 'R$ 8,50';
         top: 40%;
         left: 15%;
         bottom: 0%;
     }
-    
-    section .card > .price-latte::after{
+
+    section .card>.price-latte::after {
         position: absolute;
         content: 'R$ 9,00';
         top: 40%;
@@ -114,11 +117,54 @@
         bottom: 0%;
     }
 
-    section .card > .price-cream::after{
+    section .card>.price-cream::after {
         position: absolute;
         content: 'R$ 14,60';
         top: 40%;
         left: 15%;
         bottom: 0%;
+    }
+
+    footer>.contato-text {
+        flex: 100%;
+        margin: 0;
+        margin-bottom: -30px;;
+    }
+
+    footer>.contato {
+        flex: 100%;
+        margin: 0;
+    }
+
+    footer>.contato>h4 {
+        display: block;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 47px;
+        text-align: center;
+        margin-bottom: -2px;
+    }
+
+    footer>.contato .contato-inform {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer>.contato .contato-inform img {
+        margin: 10px 0;
+    }
+
+    footer>.contato .contato-inform a {
+        margin-top: 50px;
+    }
+
+    footer>.redes-sociais {
+        margin-bottom: 20px;
+    }
+
+    footer > .redes-sociais p{
+        margin-bottom: -2px;
     }
 }
